@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InternetManagerSetup", "InternetManagerSetup\InternetManagerSetup.vdproj", "{6AEA5C0C-99F3-43A9-AFEA-B0F0D9B7E0D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AEA5C0C-99F3-43A9-AFEA-B0F0D9B7E0D3}.Debug|Default.ActiveCfg = Debug
+		{6AEA5C0C-99F3-43A9-AFEA-B0F0D9B7E0D3}.Debug|Default.Build.0 = Debug
+		{6AEA5C0C-99F3-43A9-AFEA-B0F0D9B7E0D3}.Release|Default.ActiveCfg = Release
+		{6AEA5C0C-99F3-43A9-AFEA-B0F0D9B7E0D3}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9594A4C-0AFB-447E-948F-DF02B3EE68E3}
+	EndGlobalSection
+EndGlobal
