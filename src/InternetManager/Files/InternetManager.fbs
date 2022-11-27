@@ -1,0 +1,20 @@
+<Data>
+  <Events Desc="Events associated with controls">
+    <ToolStripButton Name="ToolStripButton_Reload" Root="Form|MainForm" Events="Click" />
+    <ToolStripButton Name="ToolStripButton_Home" Root="Form|MainForm" Events="Click" />
+    <ToolStripButton Name="ToolStripButton_URLGo" Root="Form|MainForm" Events="Click" />
+  </Events>
+  <Form Name="MainForm" Size="463,303" Tag="VisualStyle,DPIAware" Text="Internet Manager">
+    <MenuStrip Name="ToolStrip" ImageScalingSize="16,16">
+      <ToolStripButton Name="ToolStripButton_Reload" Text="Reload" />
+      <ToolStripButton Name="ToolStripButton_Home" Text="Home" />
+      <ToolStripSeparator Name="ToolStripSeparator1" />
+      <ToolStripTextBox Name="ToolStripTextBox_URL" Text="about:blank" />
+      <ToolStripButton Name="ToolStripButton_URLGo" Text="Go" />
+    </MenuStrip>
+    <Panel Name="Panel" Dock="Fill">
+      <WebBrowser Name="WebBrowser" Dock="Fill" Url="about:blank" />
+    </Panel>
+    <StatusStrip Name="StatusStrip" ImageScalingSize="16,16" Text="StatusStrip1" />
+  </Form>
+</Data>
